@@ -1,0 +1,31 @@
+# First Django Project
+# django-admin tool
+
+# In the cmd line run the following code to set up your directory
+# "django-admin" startproject [PROJECTNAME]
+
+# The above line will create a directory containing:
+# project_name (ROOT DIRECTORY)
+    # project_name (FOLDER w py files)
+        # __init__.py
+        # settings.py
+        # urls.py
+        # asgi.py
+        # wsgi.py
+    # manage.py 
+
+# manage.py has overlap with django-admin
+# it contains cmd line utlities that allow you to interact w django
+# i.e. it helps you manage your project
+
+
+# DJANGO APPS 
+# kind of like folders
+# used for organizations and separating key functionalities
+
+# CREATE NEW DJANGO APP
+# use: python manage.py startapp [APPNAME]
+
+
+# RUN APP
+# use: python manage.py runserver
