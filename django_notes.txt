@@ -1,12 +1,16 @@
-# First Django Project
-# django-admin tool
+# DJANGO
+# A Django PROJECT is the website
+# A Django APP are sub components of the website 
+    # typically organized by functionality
+    # create a app using the django admin tool
 
+# DJANGO ADMIN TOOL 
 # In the cmd line run the following code to set up your directory
-# "django-admin" startproject [PROJECTNAME]
+# django-admin startproject [PROJECTNAME]
 
 # The above line will create a directory containing:
-# project_name (ROOT DIRECTORY)
-    # project_name (FOLDER w py files)
+# project_name (which serves as the root directory)
+    # project_name (folder w py files)
         # __init__.py
         # settings.py
         # urls.py
@@ -18,14 +22,29 @@
 # it contains cmd line utlities that allow you to interact w django
 # i.e. it helps you manage your project
 
-
 # DJANGO APPS 
 # kind of like folders
-# used for organizations and separating key functionalities
+# used for organization and separating of key functionalities
 
 # CREATE NEW DJANGO APP
 # use: python manage.py startapp [APPNAME]
 
-
 # RUN APP
 # use: python manage.py runserver
+
+
+
+##### EXAMPLE #####
+# Aim is to connect a view to a url in order to visibly present the view in a browser
+
+# TODOs:
+# Create a view
+# Create a the urls for the app
+# Connect app to project url
+
+
+# WHAT IS A VIEW?
+# views can be function or class based
+
+
+
