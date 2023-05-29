@@ -1,8 +1,8 @@
 # DJANGO
 # A Django PROJECT is the website
-# A Django APP are sub components of the website 
+# A Django APPLICATION are sub components of the website 
     # typically organized by functionality
-    # create a app using the django admin tool
+    # you create a app. using the django admin tool
 
 # DJANGO ADMIN TOOL 
 # In the cmd line run the following code to set up your directory
@@ -39,8 +39,8 @@
 
 # TODOs:
 # Create a view
-# Create a the urls for the app
-# Connect app to project url
+# Create the url for the app
+# Connect app url to project url
 
 
 # WHAT IS A VIEW?
