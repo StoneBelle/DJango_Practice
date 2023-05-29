@@ -44,7 +44,9 @@
 
 
 # WHAT IS A VIEW?
-# views can be function or class based
-
+# views are python functions or classes
+# they receive a web request and return a web response
+    # e.g. HTTP response, HTML template, HTTP redirect 
+    
 
 
