@@ -34,7 +34,7 @@
 
 
 
-##### EXAMPLE #####
+##### EXERCISE 1 #####
 # Aim is to connect a view to a url in order to visibly present the view in a browser
 
 # TODOs:
