@@ -15,10 +15,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.http.response import HttpResponse
 from django.urls import path, include
+from . import views 
+
+# Creating a home page can be done my defining a home view in project lvl urls 
+# OR by creating a views.py within projectname folder
+
+# def home_view(requests):
+#     return HttpResponse("Home Page")
 
 urlpatterns = [
-    
-    path("my_app/", include("my_app.urls")), # connects my_app urls to project lvl urls
     path('admin/', admin.site.urls),
+    path('my_app/', include('my_app.urls')),
+    # path('',home_view), # connects the home_view within this file to project lvl urls
+    path('', views.home_view), # connects home_view from views.py project lvl to project lvl urls
 ]
