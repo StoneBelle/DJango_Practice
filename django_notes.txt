@@ -1,52 +1,43 @@
 # DJANGO
-# A Django PROJECT is the website
-# A Django APPLICATION are sub components of the website 
-    # typically organized by functionality
-    # you create a app. using the django admin tool
+# makes web dev easier by leveraging python
+# compatible with python libraries and has many built-in py-functionalities
+# scalable, regularly updated, and secure 
 
-# DJANGO ADMIN TOOL 
-# In the cmd line run the following code to set up your directory
-# django-admin startproject [PROJECTNAME]
+# DJANGO PROJECT 
+    # is the website project itself
+    # in the cmd line run the following code to set up your directory:
+    # django-admin startproject [PROJECTNAME]
 
-# The above line will create a directory containing:
-# project_name (which serves as the root directory)
-    # project_name (folder w py files)
-        # __init__.py
-        # settings.py
-        # urls.py
-        # asgi.py
-        # wsgi.py
-    # manage.py 
+    # The above line will create a directory containing:
+    # project_name (which serves as the root directory)
+        # project_name (folder w py files)
+            # __init__.py
+            # settings.py
+            # urls.py
+            # asgi.py
+            # wsgi.py
+        # manage.py 
+
+# DJANGO APPLICATION 
+    # sub components of the website 
+    # used for the organization/separation of key functionalities
+    # i.e. apps. act like "folders"
+
+    # Create a Django app. use:
+        # python manage.py startapp [APPNAME]
+        
+    # Run app. use: 
+        # python manage.py runserver
 
 # manage.py has overlap with django-admin
 # it contains cmd line utlities that allow you to interact w django
-# i.e. it helps you manage your project
-
-# DJANGO APPS 
-# kind of like folders
-# used for organization and separating of key functionalities
-
-# CREATE NEW DJANGO APP
-# use: python manage.py startapp [APPNAME]
-
-# RUN APP
-# use: python manage.py runserver
+    # i.e. it helps you manage your project
+    
+   
 
 
 
-##### EXERCISE 1 #####
-# Aim is to connect a view to a url in order to visibly present the view in a browser
 
-# TODOs:
-# Create a view
-# Create the url for the app
-# Connect app url to project url
-
-
-# WHAT IS A VIEW?
-# views are python functions or classes
-# they receive a web request and return a web response
-    # e.g. HTTP response, HTML template, HTTP redirect 
     
 
 
