@@ -1,0 +1,44 @@
+# WHAT IS A VIEW?
+# views are python functions or classes
+# they receive a web request and return a web response
+    # e.g. HTTP response, HTML template, HTTP redirect 
+    
+
+# Views dictate WHAT info is being shown to client 
+# Urls dictate WHERE info is shown on the website 
+
+# Views need to be routed (i.e. paired) to a url in order to to create the web page(s) on a website
+
+# You can connect an app lvl url to a project lvl url through the use ofthe following django functions:
+    # path()
+    # include()
+
+# All view routes are defined in a list called "urpatterns"
+
+
+# CONNECT A VIEW TO A URL VIA path():
+
+# 1st required path arg:
+    # route: str code that contains the url pattern
+    # When route is passed in, django will search the urlpatterns list (which stores all str routes), for a match
+# 2nd require path arg
+    #view 
+    #Once a matching route is found the view arg connects to a func/view that is often defined in the views.py file of the relevant Django app
+
+# Optional args:
+	# Kwargs - Allows us to pass in keyword arguments as a dictionary to the view  
+	# Name - allows us to name a url in order to reference it elsewhere in Django
+ 
+	
+
+# DYNAMIC VIEWS & LOGIC
+# 2 key ideas:
+# Adding logic to to a view (i.e. adding actual py code to a view as opposed to a http response)
+
+# Creating Dynamic Paths
+    #I.e. having the actual URL Path Routes defined by the client
+
+# PATH CONVERTERS
+
+##### for path converters and dynamic views check the my_app/views.py and my_app/urls.py #####
+
