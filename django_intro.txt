@@ -33,10 +33,13 @@
 # it contains cmd line utlities that allow you to interact w django
     # i.e. it helps you manage your project
     
-   
+# By default projectnamefodler/settings.py has DEBUG = True
+# You can change it to False once your project is complete to show any generic raised error pages
 
-
-
+# NOTE: when changing to False you need to also update the ALLOWED_HOSTS = [""]
+    # i.e. check the terminal for: Starting development server at http://127.0.0.1:8000/
+    # 127.0.0.1:
+    
 
     
 
