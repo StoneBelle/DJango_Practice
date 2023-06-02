@@ -42,3 +42,27 @@
 
 ##### for path converters and dynamic views check the my_app/views.py and my_app/urls.py #####
 
+# REDIRECTS
+# Occasionally a client user will provide path that we want to redirect to another webpage on our site
+# HttpResponseRedirect() helps us accomplish that
+
+
+# REVERSE URLS & URL NAMES
+# useful for when our website becomes larger and needs to reference existing pages(URLs across our website)
+
+# URL Paths inside the path() function can have names that can be referenced across Django and inside of a template
+# Django has a reverse() function to find corresponding URL path for a URL name
+
+
+## 1:30 Lecture 56 
+
+# CONNECTING VIEWS TO TEMPLATES
+
+# templates are HTML files
+# not ideal to manually type out HTMl code/HTTP Responses inside views.py file
+# rather we aim to separate our templates into a separate directory and have views communicate between this directory and render the templates
+
+# connecting to a template directory requires us to inform the Django project settings where to find these templates
+# ideal way of doing is this is storing the templates within the app level as opposed to project lvl
+# check 10:40 Lecture 57
+
